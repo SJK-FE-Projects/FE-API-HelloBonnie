@@ -1,0 +1,33 @@
+//Variables and mixins for SASS styles
+
+
+@font-face {
+    font-family: 'Favorit';
+    src: url('../assets/Favorit-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin H1 {
+	color: $base-color;
+	font-size: 9.3vw;
+    text-decoration: none !important;
+    text-wrap: nowrap !important;
+    line-height: 3vh !important;
+
+    @media only screen and (min-width: 900px) {
+        letter-spacing: 0.2vw;
+    }
+
+    @media only screen and (max-width: 900px) {
+        letter-spacing: 0.15vw;
+    }
+	font-weight: normal;
+}
+
+
+// VAR
+
+$base-color: #fff;
+
+$text-color:#000;

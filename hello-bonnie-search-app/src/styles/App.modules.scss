@@ -1,0 +1,17 @@
+// Styles App.scss
+@import './variables.modules.scss';
+
+.App {
+    background-color: #334155;
+}
+
+* {
+    font-family: 'Favorit';
+}
+
+@import './variables.modules.scss';
+
+h1 {
+    @include H1;
+}
+
