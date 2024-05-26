@@ -1,6 +1,6 @@
 # FE-API-HelloBonnie
+# Hello Bonnie Search App
 Little API Search ReactApp assignment for the HelloBonnie
-Hello Bonnie Search App
 
 # This project is a React-based application that allows users to search for postal code information using an API. Users can enter a postal code and select a country to retrieve relevant details such as city, state, latitude, and longitude. Additionally, users can mark search results as favorites, and the application will store these locally for future reference.
 
