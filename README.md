@@ -17,6 +17,12 @@ The Form component provides a search form where users can enter a postal code an
 
 The PostalCodeContext provides state management for postal code data, loading status, errors, and functions to fetch data and reset state. It utilizes React's Context API to share data and functions with child components.
 
+4. .env with API_URL for the API fetch.
+
+5. Style files for additional global styling with variables/mixins. This module extends the themes defined for Mantine in main.jsx.
+
+
+
 # Usage Instructions
 Install Dependencies: Run npm install to install project dependencies.
 
