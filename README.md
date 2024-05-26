@@ -22,7 +22,7 @@ Install Dependencies: Run npm install to install project dependencies.
 
 Run the Development Server: Execute npm run dev to start the development server.
 
-Access the Application: Open a web browser and navigate to the provided URL (typically http://localhost:3000).
+Access the Application: Open a web browser and navigate to the provided URL (typically http://localhost:).
 
 Search for Postal Codes: Enter a postal code and select a country in the search form provided by the Form component. Click the "Search" button to fetch and display the postal code information using the Result component.
 
