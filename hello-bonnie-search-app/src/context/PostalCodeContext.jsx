@@ -14,7 +14,7 @@ const PostalCodeProvider = ({ children }) => {
         try {
             const response = await 
 			// import API PORT from .env failed
-			fetch(`https://api.zippopotam.us/${countryCode}/${postalCode}`);
+			fetch(`${import.meta.env.VITE_API_URL}/${countryCode}/${postalCode}`);
             if (!response.ok) {
                 throw new Error('Postal code not found');
             }
